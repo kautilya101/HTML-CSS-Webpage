@@ -1,0 +1,189 @@
+.heading{
+    display : flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.links{
+    color: grey;
+    display : flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1em;
+    font-family: 'Calibri';
+    
+}
+
+.greyLinks:hover{
+    color: black;
+    
+    
+}
+
+.heading-subscribe{
+    font-family: 'Calibri';
+    color: grey;
+}
+
+.signBtn{
+    border: thin solid grey;
+    padding: 0.3em;
+    border-radius: 0.2em;
+    font-family: 'Calibri';
+    color: grey;
+}
+
+.signBtn:hover{
+    background-color: grey;
+    border: thin solid grey;
+    padding: 0.3em;
+    border-radius: 0.2em;
+    font-family: 'Calibri';
+    color: white;
+}
+
+.search-icon{
+    margin-right: 1em;
+    border: 0ch;
+}
+button,a{
+    all: unset;
+}
+.logo{
+    font-size: 2em;
+}
+
+.allContent{
+    padding: 1em;
+}
+
+.border{
+    border-bottom: thin solid rgb(196, 196, 196);
+
+}
+.border-full{
+    
+    border-bottom: thin solid rgb(196, 196, 196);
+
+}
+
+.box{
+    background-color: #3a4248;
+    border-radius: 0.2em;
+    padding: 3em;
+}
+
+.art-content{
+    color: white;
+}
+
+@font-face{
+    font-family: GeorgiaPro;
+    src: url(../fonts/GeorgiaPro-Italic.ttf);
+}
+
+.art-content h1{
+    font-style: italic ;
+    font-size: 3em;
+    font-family: GeorgiaPro;
+    margin-top: 20;
+    margin-bottom: 30;
+}
+
+.art-content p,.art-content div{
+    font-family: 'Calibri';
+
+}
+
+.display-card-conatiner{
+    display : flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+
+    margin-top: 1em;
+}
+
+.display-card{
+    display : flex;
+    justify-content: space-between;
+    padding: 1em;
+    margin-bottom: 1em;
+    width: 70%
+}
+.display-card div{
+    width: 100%;
+}
+
+.box-card{
+    border-radius: 0.2em;
+    border: thin solid grey;
+    width: 49%;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    
+}
+
+.footer{
+    text-align: center;
+    
+}
+
+.footer-content{
+
+   margin: 1em;
+    
+}
+
+.footer div{
+    margin-bottom: 1em;
+}
+
+.toTop{
+    color: rgb(3, 134, 221);
+}
+
+figure .thumbnail{
+    width: 35%;
+    height: 100%;
+    flex-basis: 30%;
+    display:block;
+    background-color: #3a4248;
+}
+
+.thumbnail :hover{
+    background-color: red;
+    font-size: larger;
+}
+
+.thumb {
+    position: relative;
+    top:50%;
+    transform: translateY(50%);
+    text-align: center;
+    color: white;
+}
+
+
+.box-card div{
+    font-family: 'Calibri';
+}
+
+.world{
+    margin: 0;
+    padding: 0;
+    color: rgb(0, 162, 255);
+}
+
+.design{
+    color: green;
+}
+
+.date{
+    margin: 0;
+    padding: 0;
+}
+
